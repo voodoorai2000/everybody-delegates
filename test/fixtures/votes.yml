@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  citizen_id: 1
+  proposal_id: 1
+  value: MyString
+
+two:
+  citizen_id: 1
+  proposal_id: 1
+  value: MyString

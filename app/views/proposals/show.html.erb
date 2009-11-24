@@ -1,0 +1,6 @@
+<%= flash[:notice] %>
+<% form_for [@proposal, @vote] do |f| -%>
+  <%= f.hidden_field :citizen_id, :value => session[:id] %>
+  <%= f.hidden_field :value, :value => 'SI' %>
+  <%= f.submit "SI" %>
+<% end -%>
