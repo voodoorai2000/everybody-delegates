@@ -1,4 +1,3 @@
-@current
 Caracteristica: Votar
 
   Para que mi opinion se tenga en cuenta en las decisiones del parlamento
@@ -6,8 +5,8 @@ Caracteristica: Votar
   Quiero poder votar
   
   Antecedentes: 
-    Dado una propuesta "Ruby en la Administración"
-       Y una ciudadana llamada "Ana"
+    Dado que tenemos una propuesta "Ruby en la Administración"
+       Y que tenemos una ciudadana llamada "Ana"
   
   Escenario: Votar
       Cuando me logeo como "Ana"
