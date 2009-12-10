@@ -1,6 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
   map.resources :proposals, :has_many => :votes
-  
+  map.resources :citizens
+  map.resources :spokesmen, :has_many => :citizens
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

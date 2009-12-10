@@ -3,3 +3,6 @@ es:
     votes:
       create:
         notice: "Has votado SI a la propuesta 'Ruby en la Administración'"
+    spokesmen:
+      update:
+        notice: "Jose es tu nuevo portavoz"

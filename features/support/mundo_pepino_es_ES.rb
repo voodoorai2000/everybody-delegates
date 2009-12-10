@@ -14,6 +14,7 @@ MundoPepino.configure do |config|
     # TRADUCOoCIÓN DE MODELOS AQUÍ, por ejemplo:
     /^propuestas?$/i    => Proposal,
     /^ciudadan[oa]s?$/i => Citizen,
+    /^portavo(?:z|ces)$/i => Spokesman,
     /^votos?$/i         => Vote
     # /^huert[oa]s?/i            => Orchard,
     # /^bancal(es)?$/i           => Terrace,

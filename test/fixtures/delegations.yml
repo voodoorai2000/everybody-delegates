@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  spokesman_id: 1
+  citizen_id: 1
+
+two:
+  spokesman_id: 1
+  citizen_id: 1
